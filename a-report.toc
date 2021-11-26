@@ -3,34 +3,34 @@
 \contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Objetivo}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Justificativa}{1}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Metodologia}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Método bili}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Fase 1}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Fase 2}{4}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Fase 3}{4}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Fase 4}{4}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Construção do relatório}{4}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Estudo do estado da arte}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Robôs Antropormóficos}{5}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Definição}{6}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Componentes principais}{6}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Tabela Comparativa}{6}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Revisão bibliográfica}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Rede de citação}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Principais autores}{6}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Modelos de robôs bípedes}{6}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Robô NAO}{6}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Robô DARWIN-OP}{7}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Robô LOLA}{8}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Robô HUBO 2}{9}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Estudo das funcionalidades}{10}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Percepção}{10}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Mecânismos}{11}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Controle}{12}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Mapa conceitual do estudo}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Organização e compartilhamento dos dados}{12}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Conclusão}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Considerações finais}{13}{section.4.1}%
-\contentsline {chapter}{\numberline {A}Diagramas mecânicos}{14}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Diagramas eletro-eletrônicos}{15}{appendix.B}%
-\contentsline {chapter}{Referências}{16}{appendix.B}%
+\contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Método bili}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fase 1}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Fase 2}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Fase 3}{3}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Fase 4}{3}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Construção do relatório}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Estudo do estado da arte}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Robôs Antropormóficos}{4}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Definição}{4}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Componentes principais}{4}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tabela Comparativa}{4}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Revisão bibliográfica}{5}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Rede de citação}{5}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Principais autores}{5}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Modelos de robôs bípedes}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Robô NAO}{5}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Robô DARWIN-OP}{6}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Robô LOLA}{7}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Robô HUBO 2}{8}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Estudo das funcionalidades e mecânismos}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Percepção}{9}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Mecânismos}{10}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Controle}{11}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Mapa conceitual do estudo}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Organização e compartilhamento dos dados}{11}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Conclusão}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Considerações finais}{12}{section.4.1}%
+\contentsline {chapter}{\numberline {A}Diagramas mecânicos}{13}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Diagramas eletro-eletrônicos}{14}{appendix.B}%
+\contentsline {chapter}{Referências}{15}{appendix.B}%

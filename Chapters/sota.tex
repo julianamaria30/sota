@@ -1,28 +1,20 @@
 \chapter{Introdução}
 \label{chap:intro}
 
-Os robôs móveis têm a capacidade de se moverem sob seu próprio controle. Quando o robô é capaz de executar tarefas usando estado físico e/ou sensores sem intervenção humana é categorizado como autônomo, conforme às definições da norma \cite{ISO}. De acordo com \cite{Rubio} plataformas móveis podem ser classificados,quanto ao sistema de locomoção, como terrestres, aquáticos e aéreos. Os terrestres são subdivididos em robôs que possuem rodas, pernas (bípedes) ou esteiras. Cada um desses métodos possuem características especifícas quanto ao movimento a ser realizado. Os bípedes, por exemplo, simulam um caminhar antropomórfico, semelhante aos humanos. 
+Os robôs móveis têm a capacidade de se moverem sob seu próprio controle. Quando o robô é capaz de executar tarefas usando estado físico e/ou sensores sem intervenção humana é categorizado como autônomo, conforme às definições da norma \cite{ISO}. De acordo com \cite{Rubio} plataformas móveis podem ser classificados, quanto ao sistema de locomoção, como terrestres, aquáticos e aéreos. Os terrestres são subdivididos em robôs que possuem rodas, pernas (bípedes) ou esteiras. Cada um desses métodos possuem características especifícas quanto ao movimento a ser realizado. Os bípedes, por exemplo, simulam um caminhar antropomórfico, semelhante aos humanos. 
 
-O desenvolvimento deste projeto consiste em produzir um robô que possa caminhar sobre duas pernas. Além disso, o walker deve se locomover de forma autonôma a fim de realizar uma dada missão.
-Neste capítulo serão abordados os requisitos do cliente, os requisistos técnicos, a missão do robô e a pesquisa por similares. 
-
+O desenvolvimento desta documentação consiste na análise dos robôs humanóides tendo como base alguns dos principais artigos relacionados ao seu estudo assim como informações disponibilizadas pelos desenvolvedores, destacando suas principais caracteristicas físicas como tipos de sensores utilizados pelo sistema de percepção e estratégias de design mecânico e também informações relacionadas ao sistema de controle.
 
 \section{Objetivo}
 \label{sec:obj}
 
-O estudo bibliográfico foi realizado com o intuito de auxiliar no desenvolvimento do projeto Walker que tem como objetivo construir um robô humanóide de pequeno porte. Esta pesquisa visa contribuir com informações obtidas através das análise das principais características dos sistemas dos robôs humanoídes já existentes. 
-
-Durante a ideação do projeto fez-se necessário realizar uma pesquisa por tecnologias similares, a fim de estudar seu funcionamento e características. Dessa forma, foram reunidos robôs de pequeno porte que se locomovessem sobre pernas, de maneira autonôma.
-
-Desta maneira, os modelos relevantes a este projeto foram detalhados a seguir. 
+O estudo bibliográfico foi realizado com o intuito de auxiliar no desenvolvimento do projeto Walker que tem como objetivo construir um robô humanóide autônomo de pequeno porte. Esta pesquisa visa contribuir com informações obtidas através das análise das principais características dos sistemas dos robôs humanoídes já existentes. 
 
 \section{Justificativa}
 \label{sec:justi}
 
 Robôs antropomórficos são amplamente utilizados em diversas áreas no dia-a-dia, desde interações com humanos até aplicações na área da saúde, bem como em pesquisas acadêmicas, sendo uma configuração mais adequada para transposição de ambientes de difícil navegação.
-Além disso, faz-se necessário o fomento ao desenvolvimento da Robótica no estado da Bahia, bem como o estudo de robôs antropomórficos dentro da Instituição Senai Cimatec, elevando seu nível competitivo.
-
-Desta forma, é idealizado um robô bípede de pequeno porte, capaz de navegar e explorar em uma área delimitada de forma autônoma.
+Além disso, faz-se necessário o formento ao desenvolvimento da Robótica no estado da Bahia, bem como o estudo de robôs antropomórficos dentro da Instituição Senai Cimatec, elevando seu nível competitivo.
 
 
 %*******************************************************************
@@ -44,6 +36,8 @@ Desta forma, é idealizado um robô bípede de pequeno porte, capaz de navegar e
 
 \chapter{Metodologia}
 \label{chap:metod}
+
+Para o desenvolvimento deste estudo do Estado da Arte dos robôs antropormóficos foi utilizada a metodologia do método BILI (Bibliographic and Literary Review Method), a qual será explicada nos tópicos seguintes.
 
 \section{Método bili}
 \label{sec:bili}
@@ -102,6 +96,8 @@ Para ter uma boa mobilidade e ser capaz de realizar as tarefas proposta o robô 
 \subsection{Definição}
 \label{ssec:defi}
 
+Os robôs antropormóficos, também conhecidos como humanóides, são robôs que possuem atributos semelhantes a forma humana como cabeça, braços e pernas. São robôs bípedes, ou seja, que se locomovem sobre os dois pés.
+
 \subsection{Componentes principais}
 \label{ssec:comp}
 
@@ -131,6 +127,7 @@ Para ter uma boa mobilidade e ser capaz de realizar as tarefas proposta o robô 
 
 Nesta seção serão abordadas as principais características de alguns modelos de robôs humanoídes comumente utilizados por pesquisadores para realizar estudos sobre a locomoção bípede.
 
+Um robô terrestre que se locomove sobre dois pés é classificado como bípede. Para isto, os movimentos realizados por este robô são similares a um andar antropomórfico. Movimentos antropomórficos são amplamente estudados e utilizados tanto na área de robótica voltada à saúde, como na industrial
 
 \subsection{Robô NAO}
 \label{ssec:nao}
@@ -187,8 +184,10 @@ O HUBO 2 foi desenvolvido no laboratório HUBO no KAIST (Korean Advanced Institu
 \end{figure}
 
 
-\section{Estudo das funcionalidades}
+\section{Estudo das funcionalidades e mecânismos}
 \label{sec:robos}
+
+Nesta seção serão apresentadas as principais caracteristicas dos sistemas de percepção e controle dos robôs antropormóficos, assim como da estrutura mecânica destes robôs. Estes são quesitos de extrema importância no desenvolvimento destes robôs pois influênciam na eficiência do seu sistema.
 
 \subsection{Percepção}
 \label{ssec:percepcao}
