@@ -2,13 +2,16 @@
 \babel@toc {brazil}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Fases do método BILI\relax }}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ciclos do método BILI\relax }}{3}{figure.caption.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Robô NAO\relax }}{6}{figure.caption.4}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Robô Darwin-OP\relax }}{7}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Robô LOLA\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Robô HUBO 2\relax }}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Classificação dos sensores\relax }}{10}{figure.caption.8}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Robô NAO\relax }}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Robô Darwin-OP\relax }}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Robô LOLA\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Robô HUBO 2\relax }}{10}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Classificação dos sensores\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Elementos para o desenvolvimento do controlador de caminhada\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diferentes fases de suporte dos pés durante a locomoção de robôs humanoides\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Modelos frequentemente utilizados como representações dos robôs bípedes\relax }}{13}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Arquitetura geral do gerador de passos\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Visão geral do fluxo de informações do framework de controle de equilíbrio proposto\relax }}{14}{figure.caption.13}%
 \addvspace {10\p@ }

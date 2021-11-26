@@ -5,10 +5,108 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[ISO-8373 2012]{ISO}
-\abntrefinfo{ISO-8373}{ISO-8373}{2012}
-{ISO-8373. \emph{Robots and robotic devices — Vocabulary}.
-Geneva, CH, 2012.}
+\bibitem[Buschmann, Lohmeier e Ulbrich 2009]{Buschmann2009141}
+\abntrefinfo{Buschmann, Lohmeier e Ulbrich}{BUSCHMANN; LOHMEIER; ULBRICH}{2009}
+{BUSCHMANN, T.; LOHMEIER, S.; ULBRICH, H. Humanoid robot lola: Design and
+  walking control.
+\emph{Journal of Physiology Paris}, v.~103, n.~3-5, p. 141--148, 2009.
+Cited By 61.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-71149103494&doi=10.1016\%2fj.jphysparis.2009.07.008&partnerID=40&md5=b0819741b21b844768269bf3a5859fb4}.}
+
+\bibitem[Chatterjee, Chaudhuri e Vrontis 2021]{Chatterjee2017603}
+\abntrefinfo{Chatterjee, Chaudhuri e Vrontis}{CHATTERJEE; CHAUDHURI;
+  VRONTIS}{2021}
+{CHATTERJEE, S.; CHAUDHURI, R.; VRONTIS, D. Usage intention of social robots
+  for domestic purpose: From security, privacy, and legal perspectives.
+\emph{Springer Nature 2021}, 2021.}
+
+\bibitem[Goswami e Vadakkepat 2019]{Ambarish20181}
+\abntrefinfo{Goswami e Vadakkepat}{GOSWAMI; VADAKKEPAT}{2019}
+{GOSWAMI, A.; VADAKKEPAT, P. \emph{Humanoid Robotics: A Reference}. [S.l.:
+  s.n.], 2019.}
+
+\bibitem[Grizzle et al. 2014]{Grizzle20141955}
+\abntrefinfo{Grizzle et al.}{GRIZZLE et al.}{2014}
+{GRIZZLE, J. et al. Models, feedback control, and open problems of 3d bipedal
+  robotic walking.
+\emph{Automatica}, v.~50, n.~8, p. 1955--1988, 2014.
+Cited By 162.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905269697&doi=10.1016\%2fj.automatica.2014.04.021&partnerID=40&md5=738ce4fc908a8b5f96a81b7426c66fb3}.}
+
+\bibitem[Gupta e Kumar 2017]{Gupta2017607}
+\abntrefinfo{Gupta e Kumar}{GUPTA; KUMAR}{2017}
+{GUPTA, S.; KUMAR, A. A brief review of dynamics and control of underactuated
+  biped robots.
+\emph{Advanced Robotics}, v.~31, n.~12, p. 607--623, 2017.
+Cited By 25.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85017159972&doi=10.1080\%2f01691864.2017.1308270&partnerID=40&md5=2ddddea7309cfb08e08e036a9002845c}.}
+
+\bibitem[He e Gao 2020]{He2020}
+\abntrefinfo{He e Gao}{HE; GAO}{2020}
+{HE, J.; GAO, F. Mechanism, actuation, perception, and control of highly
+  dynamic multilegged robots: A review.
+\emph{Chinese Journal of Mechanical Engineering (English Edition)}, v.~33,
+  n.~1, 2020.
+Cited By 6.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85095696025&doi=10.1186\%2fs10033-020-00485-9&partnerID=40&md5=c11601e75687cad0fa5dc55968df0d3f}.}
+
+\bibitem[Joe e Oh 2019]{Joe2019}
+\abntrefinfo{Joe e Oh}{JOE; OH}{2019}
+{JOE, H.-M.; OH, J.-H. A robust balance-control framework for the terrain-blind
+  bipedal walking of a humanoid robot on unknown and uneven terrain.
+\emph{Sensors (Switzerland)}, v.~19, n.~19, 2019.
+Cited By 8.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85072779692&doi=10.3390\%2fs19194194&partnerID=40&md5=660a183954297e85f178601caad36247}.}
+
+\bibitem[Joseph et al. 2018]{Joseph2018}
+\abntrefinfo{Joseph et al.}{JOSEPH et al.}{2018}
+{JOSEPH, A. et al. A review on humanoid robotics in healthcare. In:  . [s.n.],
+  2018. v.~153. Cited By 21. Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85043253487&doi=10.1051\%2fmatecconf\%2f201815302004&partnerID=40&md5=7544ca444cc5954672be5cd939294155}.}
+
+\bibitem[Kajita et al. 2001]{Kajit201}
+\abntrefinfo{Kajita et al.}{KAJITA et al.}{2001}
+{KAJITA, S. et al. The 3d linear inverted pendulum model: A simple modeling for
+  a bipedwalking pattern generation. In:  . [S.l.: s.n.], 2001.}
+
+\bibitem[Kasaei et al. 2018]{Kasaei2018743}
+\abntrefinfo{Kasaei et al.}{KASAEI et al.}{2018}
+{KASAEI, S. et al. A hybrid zmp-cpg based walk engine for biped robots.
+\emph{Advances in Intelligent Systems and Computing}, v.~694, p. 743--755,
+  2018.
+Cited By 4.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85042234860&doi=10.1007\%2f978-3-319-70836-2\_61&partnerID=40&md5=91dabacb22929d09d6d68d97887ba80a}.}
+
+\bibitem[Kashyap e Parhi 2021]{Kashyap2021306}
+\abntrefinfo{Kashyap e Parhi}{KASHYAP; PARHI}{2021}
+{KASHYAP, A.; PARHI, D. Particle swarm optimization aided pid gait controller
+  design for a humanoid robot.
+\emph{ISA Transactions}, v.~114, p. 306--330, 2021.
+Cited By 6.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85098214534&doi=10.1016\%2fj.isatra.2020.12.033&partnerID=40&md5=05d7f68dc6f7f08a0c911055e5b98e83}.}
+
+\bibitem[Kien, Shanmugavel e Ragavan 2017]{Kien2017}
+\abntrefinfo{Kien, Shanmugavel e Ragavan}{KIEN; SHANMUGAVEL; RAGAVAN}{2017}
+{KIEN, E.; SHANMUGAVEL, M.; RAGAVAN, S. V. Motion planning of a bipedal walking
+  robot with leg-mounted ultrasonic sensors-an experimental study. In:  .
+  [s.n.], 2017. Cited By 0. Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85025597826&doi=10.1109\%2fRAHA.2016.7931874&partnerID=40&md5=0d63a61c961eda77400ba7a08992085a}.}
+
+\bibitem[Li et al. 2021]{Li20211}
+\abntrefinfo{Li et al.}{LI et al.}{2021}
+{LI, L. et al. Trajectory planning of flexible walking for biped robots using
+  linear inverted pendulum model and linear pendulum model.
+\emph{Sensors (Switzerland)}, v.~21, n.~4, p. 1--26, 2021.
+Cited By 1.
+Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85100267374&doi=10.3390\%2fs21041082&partnerID=40&md5=5f9525717e61fd6db963e228a071868a}.}
 
 \bibitem[Rubio, Valero e Llopis-Albert 2019]{Rubio}
 \abntrefinfo{Rubio, Valero e Llopis-Albert}{RUBIO; VALERO; LLOPIS-ALBERT}{2019}
@@ -16,5 +114,42 @@ Geneva, CH, 2012.}
   methods, theoretical framework, and applications.
 \emph{International Journal of Advanced Robotic Systems}, v.~16, p.
   172988141983959, 03 2019.}
+
+\bibitem[SoftBank 2021]{NAOxx}
+\abntrefinfo{SoftBank}{SOFTBANK}{2021}
+{SOFTBANK, R. \emph{NAO}. 2021.
+  \url{https://www.softbankrobotics.com/emea/en/nao}.
+Accessed: 2021-10-16.}
+
+\bibitem[Trossen 2021]{DARWINxx}
+\abntrefinfo{Trossen}{TROSSEN}{2021}
+{TROSSEN, R. \emph{Darwin-OP Delux Humanoid Robot}. 2021.
+  \url{https://www.trossenrobotics.com/p/darwin-OP-Deluxe-humanoid-robot.aspx}.
+Accessed: 2021-10-16.}
+
+\bibitem[TUM 2021]{LOLAxx}
+\abntrefinfo{TUM}{TUM}{2021}
+{TUM. \emph{Humanoid Robot LOLA}. 2021.
+  Https://www.mec.ed.tum.de/am/forschung/aktuelle-projekte/robotik/humanoider-roboter-lola/.
+Accessed: 2021-10-16.}
+
+\bibitem[Wahrmann et al. 2017]{Wahrmann20171471}
+\abntrefinfo{Wahrmann et al.}{WAHRMANN et al.}{2017}
+{WAHRMANN, D. et al. Modifying the estimated ground height to mitigate error
+  effects on bipedal robot walking. In:  . [s.n.], 2017. p. 1471--1476. Cited
+  By 3. Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85028764835&doi=10.1109\%2fAIM.2017.8014226&partnerID=40&md5=a823c4e5cc994ca9f8814656fb1b47c1}.}
+
+\bibitem[Wevolver 2021]{HUBOxx}
+\abntrefinfo{Wevolver}{WEVOLVER}{2021}
+{WEVOLVER. \emph{Hubo Humanoid Robot}. 2021.
+  \url{https://www.wevolver.com/wevolver.staff/hubo.humanoid.robot}.
+Accessed: 2021-10-16.}
+
+\bibitem[Wieber, Tedrake e Kuindersma 2016]{Wieber20161203}
+\abntrefinfo{Wieber, Tedrake e Kuindersma}{WIEBER; TEDRAKE; KUINDERSMA}{2016}
+{WIEBER, P.-B.; TEDRAKE, R.; KUINDERSMA, S. \emph{Modeling and control of
+  legged robots}. [s.n.], 2016. 1203-1234~p. Cited By 55. Dispon{\'\i}vel em:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069208141&doi=10.1007\%2f978-3-319-32552-1\_48&partnerID=40&md5=347caafe5b964b2affce05710cdbfa11}.}
 
 \end{thebibliography}

@@ -1,7 +1,11 @@
 \chapter{Introdução}
 \label{chap:intro}
 
-Os robôs móveis têm a capacidade de se moverem sob seu próprio controle. Quando o robô é capaz de executar tarefas usando estado físico e/ou sensores sem intervenção humana é categorizado como autônomo, conforme às definições da norma \cite{ISO}. De acordo com \cite{Rubio} plataformas móveis podem ser classificados, quanto ao sistema de locomoção, como terrestres, aquáticos e aéreos. Os terrestres são subdivididos em robôs que possuem rodas, pernas (bípedes) ou esteiras. Cada um desses métodos possuem características especifícas quanto ao movimento a ser realizado. Os bípedes, por exemplo, simulam um caminhar antropomórfico, semelhante aos humanos. 
+Um dos principais objetivoss robôs móveis têm a capacidade de se moverem sob seu próprio controle. Quando o robô é capaz de executar tarefas usando estado físico e/ou sensores sem intervenção humana é categorizado como autônomo, conforme às definições da norma \cite{ISO}. De acordo com \citeonline{Rubio} plataformas móveis podem ser classificados, quanto ao sistema de locomoção, como terrestres, aquáticos e aéreos. Os terrestres são subdivididos em robôs que possuem rodas, pernas (bípedes) ou esteiras. Cada um desses métodos possuem características especifícas quanto ao movimento a ser realizado. Os bípedes, por exemplo, simulam um caminhar antropomórfico, semelhante aos humanos. 
+
+De acordo com \citeonline{He2020}, mais de 50\% da superfície terrestre é inacessível por veículos tradicionais com rodas e trilhas. Enquanto, robôs com pernas possuem uma maior mobilidade em ambientes irregulares porém, eles possuem mecânismos e modos de controle muito mais complexos.\cite{Wieber20161203}
+
+Segundo \citeonline{He2020} a perfomance de robôs com pernas estão relacionados com vários fatores, incluindo seus mecânismos e atuação, percepção, e métodos de controle. Por isso, é necessário realizar uma pesquisa sobre a evolução dessas tecnologias.
 
 O desenvolvimento desta documentação consiste na análise dos robôs humanóides tendo como base alguns dos principais artigos relacionados ao seu estudo assim como informações disponibilizadas pelos desenvolvedores, destacando suas principais caracteristicas físicas como tipos de sensores utilizados pelo sistema de percepção e estratégias de design mecânico e também informações relacionadas ao sistema de controle.
 
@@ -14,6 +18,13 @@ O estudo bibliográfico foi realizado com o intuito de auxiliar no desenvolvimen
 \label{sec:justi}
 
 Robôs antropomórficos são amplamente utilizados em diversas áreas no dia-a-dia, desde interações com humanos até aplicações na área da saúde, bem como em pesquisas acadêmicas, sendo uma configuração mais adequada para transposição de ambientes de difícil navegação.
+
+\citeonline{Gupta2017607} destaca que a vantagem da locomoção por pernas é a utilização de passos discretos para o equilibrio e a movimentação do robô, o que permite que este realize manobras em terrenos acidentados e escadas. E, dentre os robôs com pernas, os robôs bípedes oferecem outras vantagens como mãos livres para manipulação, locomoção com maior eficiência energética e a capacidade de torcer os pés para rotacionar em torno do eixo logintudinal do seu próprio corpo.
+
+Uma abordagem trazida por \citeonline{Joseph2018} aponta a aplicação dos robôs humanóides para auxiliar cuidadores e pacientes, especialmente em áreas de risco, como ambientes contaminados. Podendo ser utilizados para usos médicos e cirúrgicos, para dar assistência aos pacientes e cuidadores e também para a área de segurança.
+
+Segundo \citeonline{Chatterjee2017603} os robôs humanóides são vantajosos para serem aplicados em atividades domésticas, podendo ajudar no cuidado de idosos, podem ser uma fonte de entretenimento, além de realizar as tarefas domésticas.
+
 Além disso, faz-se necessário o formento ao desenvolvimento da Robótica no estado da Bahia, bem como o estudo de robôs antropomórficos dentro da Instituição Senai Cimatec, elevando seu nível competitivo.
 
 
@@ -87,7 +98,7 @@ Na última fase, chamada de ciclo produção, é feita a leitura e análise dos 
 
 Robôs antropormóficos, também conhecidos como humanóides, possuem uma estrutura baseada no corpo humano, com  membros e movimentos que visam uma mobilidade que permita ao robô realizar tarefas diversificadas, principalmente para auxiliar as pessoas em atividades diarias, para o entretenimento e realizar tarefas de risco.
 
-De acordo com (Trajectory Planning of Flexible Walking for Biped Robots UsingLinear Inverted Pendulum Model and Linear Pendulum Model) em comparação com outros tipos de robôs, os humanóides são mais adaptaveis ao ambiente e possuem uma boa habilidade para evitar obstáculos, por isso atraem a atenção de muitos pesquisadores.
+De acordo com \citeonline{Li20211} em comparação com outros tipos de robôs, os humanóides são mais adaptaveis ao ambiente e possuem uma boa habilidade para evitar obstáculos, por isso atraem a atenção de muitos pesquisadores.
 
 Estes movimentam-se e ajustam o seu equilibrio por meio das suas duas pernas, inclusive em terrenos irregulares. Sendo a habilidade de andar com um bom equilibrio a sua habilidade mais básica.
 
@@ -100,6 +111,14 @@ Os robôs antropormóficos, também conhecidos como humanóides, são robôs que
 
 \subsection{Componentes principais}
 \label{ssec:comp}
+
+A percepção visual é fundamental para a maioria dos sistemas autonomos que operam em ambientes repletos de obstáculos e para realizar uma série de tarefas essenciais como interagir com o humano, manipular e rastrear objetos. \cite{Joseph2018} 
+
+\citeonline{Chatterjee2017603} aponta que os robôs domésticos utilizam da Inteligência Artificial para possuir habilidades como reconhecimento de voz, reconhecimento facial humano, emoção, entre outros.
+
+Para permitir que o robô alcance uma locomoção estável e rápida deve-se atentar-se ao projeto da estrutura cinemática do robô e a alguns objetivos do design para melhorar a dinâmica dos membros do robô.\cite{Buschmann2009141}
+
+
 
 \subsection{Tabela Comparativa}
 \label{ssec:tabela}
@@ -189,6 +208,8 @@ O HUBO 2 foi desenvolvido no laboratório HUBO no KAIST (Korean Advanced Institu
 
 Nesta seção serão apresentadas as principais caracteristicas dos sistemas de percepção e controle dos robôs antropormóficos, assim como da estrutura mecânica destes robôs. Estes são quesitos de extrema importância no desenvolvimento destes robôs pois influênciam na eficiência do seu sistema.
 
+These strategies can be easily combined with a visionsystem  to  navigate  obstacle-free,  flat  regions  [11].  Mostare  based  on  a  vision  system  that  can  recognize  walkablesurfaces  in  the  environment;  these  are  sent  to  the  walkingcontrol  system,  which  adapts  footstep  locations  and  robottrajectories to navigate over these surface model (Modifying the Estimated Ground Height to Mitigate Error Effects onBipedal Robot Walking)
+
 \subsection{Percepção}
 \label{ssec:percepcao}
 
@@ -202,22 +223,75 @@ Os sensores comumente usados nos robôs humanóides podem ser classificados em d
     \label{fig:sensors}
 \end{figure}
 
-Segundo (Humanoid robot Lola: Design and walking control) o sistema de sensores do LOLA é otimizado para qualidade de sinal e largura de banda. Sensores angulares absolutos nos eixos de saída de todas as juntas compensam as elasticidades e não linearidades nos trens de força e permitem que o robô (teoricamente) comece a partir de posições arbitrárias. Dois sensores de força / torque de seis eixos feitos sob medida são fortemente integrados à estrutura do pé. Um erro de calibração de menos de 0,5 é obtido aplicando muitos casos de carga diferentes. Com um peso total de 395 g, o sensor inclui uma proteção contra sobrecarga e todos os componentes eletrônicos necessários. A unidade de medição inercial (IMU) estima a orientação e as velocidades angulares da parte superior do corpo. Visto que a precisão e a qualidade do sinal do IMU afetam consideravelmente o desempenho do controlador de estabilização, escolhemos IMU de alta precisão com giroscópios de fibra ótica e acelerômetros MEMS.
+Segundo \citeonline{Buschmann2009141} o sistema de sensores do LOLA é otimizado para qualidade de sinal e largura de banda. Sensores angulares absolutos nos eixos de saída de todas as juntas compensam as elasticidades e não linearidades nos trens de força e permitem que o robô (teoricamente) comece a partir de posições arbitrárias. Dois sensores de força / torque de seis eixos feitos sob medida são fortemente integrados à estrutura do pé. Um erro de calibração de menos de 0,5 é obtido aplicando muitos casos de carga diferentes. Com um peso total de 395 g, o sensor inclui uma proteção contra sobrecarga e todos os componentes eletrônicos necessários. A unidade de medição inercial (IMU) estima a orientação e as velocidades angulares da parte superior do corpo. Visto que a precisão e a qualidade do sinal do IMU afetam consideravelmente o desempenho do controlador de estabilização, escolhemos IMU de alta precisão com giroscópios de fibra ótica e acelerômetros MEMS.
 
-No projeto desevolvido por (Motion  planning  of  a  bipedal  walking  robot  with  leg-mounted ultrasonic  sensors  -  An  experimental  study) quatro sensores ultrassônicos, dois em cada perna, são usados para feedback da posição para caminhar e girar. O acelerômetro é usado para medir o ângulo de inclinação e para detectar a queda instantânea do robô. Sensores Resistivos de Força (FSR) são usados para determinar o centro de pressão (COP) que por sua vez é usado para calcular o ZMP do robô.
+No projeto desevolvido por \citeonline{Kien2017} quatro sensores ultrassônicos, dois em cada perna, são usados para feedback da posição para caminhar e girar. O acelerômetro é usado para medir o ângulo de inclinação e para detectar a queda instantânea do robô. Sensores Resistivos de Força (FSR) são usados para determinar o centro de pressão (COP) que por sua vez é usado para calcular o ZMP do robô.
 
 
 \subsection{Mecânismos}
 \label{ssec:mec}
 
-Um robô humanóide tem o formato do corpo semelhante ao de um corpo humano e tem como base a literatura sobre a análise e coordenação da marcha humana. Eles possuem um grande número de graus de liberdade (DOF), para serem capazes de realizar um movimento bípede semelhante ao humano. Para que este movimento seja mais natural e flexível, segundo (Robô humanóide Lola: Design e controle de caminhada), recomenda-se considerar uma configuração redundante com DOFs adicionais.
+Um robô humanóide tem o formato do corpo semelhante ao de um corpo humano e tem como base a literatura sobre a análise e coordenação da marcha humana. Eles possuem um grande número de graus de liberdade (DOF), para serem capazes de realizar um movimento bípede semelhante ao humano. Para que este movimento seja mais natural e flexível, segundo \citeonline{Buschmann2009141}, recomenda-se considerar uma configuração redundante com DOFs adicionais.
+
 Para melhorar a dinâmica das pernas do robô deve-se garantir uma regidez mecânica suficiente, centro de massa alto e baixos momentos de inércia dos elos das pernas.
+
 O objetivo básico do projeto , é, portanto, equilibrar a rigidez estrutural e o desempenho do atuador com a leveza dos componentes mecânicos.
 A estrutura mecânica do Lola, por exemplo, é caracterizado pelo design leve e consistente com alta rigidez efetiva.
+
 São utilizados servo atuadores leves e a inércia resultante das pernas é minimizada por um design sofisticado da estrutura e mecanismos de acionamento, resultando em um comportamento de aceleração superior.
 
 \subsection{Controle}
 \label{ssec:control}
+
+A figura \ref{fig:steps-control} ilustra os passos necessários para o controle da caminhada de um robô humanóide, onde a primeira etapa deste processo é o planejamento dos passos o qual é feito através do ajuste de alguns parâmetros de forma que o robô realize os movimentos de acordo com as fases de suporte dos pés ilustradas na figura \ref{fig:support-phases}.
+
+
+\begin{figure} [H]
+    \centering
+    \caption{Elementos para o desenvolvimento do controlador de caminhada}
+    \includegraphics[width=0.8\textwidth]{walk-control}
+    \caption*{Fonte: \cite{Kashyap2021306}.}
+    \label{fig:steps-control}
+\end{figure}
+
+
+\begin{figure} [H]
+    \centering
+    \caption{Diferentes fases de suporte dos pés durante a locomoção de robôs humanóides}
+    \includegraphics[width=0.8\textwidth]{support-phases}
+    \caption*{Fonte: \cite{Kashyap2021306}.}
+    \label{fig:support-phases}
+\end{figure}
+
+Existem basicamente dois tipos de marchas observadas em sistemas com pernas:  estaticamente estável e  dinâmicamente estável. Se o passo do robô permite que a projeção do seu centro de massa permaneça suficientemente dentro do polígono de suporte, projetado pelo pé do robô, entaão é estaticamente estável. Porém, se a projeção ocasionalmente sai do polígono de suporte , não deixando o robô cair ou tombar, então o sistema é dinâmicamente estável.
+
+Existem quatro modelos que são frequentemente utilizados como representação aproximada do robô bípede. O Modelo do Pêndulo Invertido Linear (LIPM) considera que toda a massa do robô está concentrada em um ponto movendo-se em uma altura constante e assume que as pernas não possuem peso este modelo foi amplamente aplicado em diversas pesquisas como XXXX. Um outro modelo é o Pêndulo Invertido com Volante (IPF) que não considera que a altura é constante e adiciona um volante pata contabilizar o momento angular interno. O Pêndulo Invertido com Mola (SLIP) adiciona uma mola para modelar as pernas do robô como um pula-pula sem massa. E o Compass -Gait Biped (CG) que trata o robô como um pêndulo duplo com massas concentradas no centro de massa e nas pernas oscilantes.\cite{Grizzle20141955} Ao utilizar um modelo de robô reduzido,por exemplo, \cite{Wahrmann20171471} a estratégia no controle em tempo real tornando o robô mais robusto contra erros de percepção e de superfícies irregulares. 
+
+Também é necessário implementar um gerador de trajetórias, o qual gera algum tipo de movimento considerando o deslocamento do Centro de Massa (COM) e do Ponto de Momento Zero (ZMP) assim como, a descrição da cinemática inversa. Desta forma, os ângulos das juntas do robô são obtidas. E, então é necessário um controlador para estabilizar estes ângulos nas juntas para garantir que o robô permanece em pé e realize todas as tarefas sem cair. \cite{Kashyap2021306}
+
+\citeonline{Kasaei2018743} apresenta uma estrutura de um controlador com um loop fechado baseada no método Central Pattern Generator (CPG) que propõem um modelo de controle inspirado nas caracteristicas biológicas. Desta forma, este método tenta produzir um caminhar estável atravéz de padrões rítmicos em relação a movimentação dos seus membros. Este teste foi realizado em um robô NAO simulado com a proposta de gerar uma movimentação estável e rápida.
+
+\begin{figure} [H]
+    \centering
+    \caption{Arquitetura geral do gerador de passos}
+    \includegraphics[width=0.8\textwidth]{arquiteturaNAO}
+    \caption*{Fonte: \cite{Kasaei2018743}}
+    \label{fig:arquitetura-nao}
+\end{figure}
+
+Em sua pesquisa \cite{Joe2019} implementa um framework de controle do equilíbrio que estabiliza os passos do robô em relação aos distúrbios. O controlador de equilíbrio é formado pelos controladores de orientação dos pés, comprimento da perna e ZMP. Estes testes foram realizados no robô DRC-HUBO+modificado. O framework proposto apresentou bons resultados permitindo que o robô se deslocasse de forma estável mantendo a postura desejada em terrenos irregulares.
+
+
+\begin{figure} [H]
+    \centering
+    \caption{Visão geral do fluxo de informações do pramework de controle de equilíbrio proposta}
+    \includegraphics[width=0.8\textwidth]{controlador}
+    \caption*{Fonte: \cite{Joe2019}}
+    \label{fig:framework-control}
+\end{figure}
+
+
+O projeto de controle para sistemas subactuados são mais difícies devido a quantidade de graus de liberdades controláveis ser menor que a real quantidade de grau de liberdade do sistema. Em \cite{Gupta2017607} são abordadas outras estratégias de controle desenvolvidas para robôs subactuados como virtual constraints, HZD (Hybrid Zero Dynamics), Pointcaré map, etc.
 
 
 
@@ -242,3 +316,7 @@ São utilizados servo atuadores leves e a inércia resultante das pernas é mini
 
 \section{Considerações finais}
 \label{sec:consider}
+
+
+
+These strategies can be easily combined with a visionsystem  to  navigate  obstacle-free,  flat  regions  [11].  Mostare  based  on  a  vision  system  that  can  recognize  walkablesurfaces  in  the  environment;  these  are  sent  to  the  walkingcontrol  system,  which  adapts  footstep  locations  and  robottrajectories to navigate over these surface model (Modifying the Estimated Ground Height to Mitigate Error Effects onBipedal Robot Walking)

@@ -113,6 +113,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{ragged2e}
+\usepackage{pdfpages}
 \justifying
 %
 \makeindex 
@@ -146,7 +147,7 @@
 	%\school{Escola de...}
 % 
     %\course{Engenharia Elétrica}
-    \typework{Relatório Final}
+    \typework{Relatório Parcial}
 % 
 	%\course{Mestrado em Modelagem Computacional e Tecnologia Industrial}
 	%\typework{Disserta\c{c}\~ao de mestrado}
@@ -158,15 +159,15 @@
 %
 % -------------------------------------------------------------------------------
 % Informações gerais
-    \thesistitle{Rennur: a funcionalidade replicante em sistemas robóticos}
+    \thesistitle{Estudo do Estado da Arte sobre robôs antropormóficos}
     \hidevolume
     \thesisvolume{Volume 1 of 1}
-    \thesisauthor{Maeve Millay}
-    \thesisauthorr{Rick Deckard}
+    \thesisauthor{Juliana Maria S. de Santana}
+    % \thesisauthorr{}
     \thesisadvisor{Prof. Marco Reis, M.Eng.}
     %\hidecoadvisor
     %\thesiscoadvisor{Marco Reis}
-    \thesismonthyear{Agosto de 2020}
+    \thesismonthyear{Novembro de 2021}
 % 
     \maketitlepage
 %
@@ -196,18 +197,19 @@
 % ---------------------------------------------------------------------------
 % Include thesis chapters
     \parskip=\baselineskip
-    \include{Chapters/sota}
+    % \include{Chapters/sota}
+    \include{Chapters/introducao}
     % \include{Chapters/fundamentos}
-    % \include{Chapters/metodos}
-    % \include{Chapters/resultados}
+    \include{Chapters/metodos}
+    \include{Chapters/resultados}
     % \include{Chapters/conclusao}
     % include more chapters ...
 %
 % ----------------------------------------------------------------------------
 % Include thesis appendices
     \begin{thesisappendices}
-        \include{Appendices/diagmec}
-        \include{Appendices/diagele}
+        \include{Appendices/tabcomparativo}
+        % \include{Appendices/diagele}
         %\include{Appendices/logbook}
     \end{thesisappendices}
 %
